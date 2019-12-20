@@ -1,69 +1,70 @@
 /*
-#1 = 85b0be
-#2 = 95cbdd
+#1 = 85b0be #dd9595
+#2 = 95cbdd #edafaf
+6D0000
 */
 
 a:hover {
-	color: #95cbdd;
+	color: #dd9595;
 }
 
 /* menu */
 .nav>li>a:hover {
-	color: #95cbdd;
+	color: #dd9595;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #95cbdd;
-	border-bottom: 4px solid #85b0be;
+	color: #dd9595;
+	border-bottom: 4px solid #edafaf;
 }
 
 /* flexslider */
 .flex-control-paging li a {
-	background: #85b0be;
+	background: #edafaf;
 }
 
 
 .testimonial span.author a {
-	color: #95cbdd;
+	color: #dd9595;
 }
 
 /* --- icon box hover --- */
 .hi-icon-effect-5 .hi-icon {
-	color: #85b0be;
-	box-shadow: 0 0 0 4px #85b0be;
+	color: #960000;
+	box-shadow: 0 0 0 4px #960000;
 }
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
-	background: #85b0be;
-	box-shadow: 0 0 0 8px  #95cbdd;
+	background: #960000;
+	box-shadow: 0 0 0 8px  #960000;
 }
 
 
 /* portfolio */
 .portfolio-item .portfolio-desc {
-	background: #85b0be;
+	background: #a32626;
 }
 
 /* btn */
 .btn-theme {
-  background: #95cbdd;
+  background: #960000;
 }
 .btn-theme:hover,.btn-theme:focus,.btn-theme:active{
-  background: #85b0be;
+  background: #960000;
 }
 .btn-cta,.btn-cta.btn-lg {
-  background: #85b0be;
-  border-color: #95cbdd;
+  background: #960000;
+  border-color: #960000;
 }
 
 .btn-cta:focus,.btn-cta:active{
-   border-color: #85b0be;
+   border-color: #960000;
 }
 
 /* footer */
 .social-circle li a {
-	background:#85b0be;
+	background:#dd9595;
 }
 
 a.scrollup{
-	background:#85b0be;
+	background:#dd9595;
 }
