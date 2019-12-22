@@ -11,18 +11,20 @@ var firebaseConfig = {
   };
   firebase.initializeApp(firebaseConfig);
 // /-Library
-  var messagesRef = firebase.database().ref('messages') ;
+  
+var messagesRef = firebase.database().ref('messages') ;
 
-  document.getElementById('contact_Form').addEventListener('submit' , submitForm) ;
-  function submitForm(e){
-    e.preventDefault();
-    var nom = getInputVal('nom') ;
-    var email = getInputVal('email') ;
-    var sujet = getInputVal('sujet') ;
-    var texte = getInputVal('texte') ;
+document.getElementById('contact_Form').addEventListener('submit' , submitForm) ;
+function submitForm(e){
+  e.preventDefault();
+  var nom = getInputVal('nom') ;
+  var email = getInputVal('email') ;
+  var sujet = getInputVal('sujet') ;
+  var texte = getInputVal('texte') ;
 
-    saveMessage(nom, email, sujet, texte);
-  }
+  saveMessage(nom, email, sujet, texte);
+
+}
 
   function getInputVal(id){
     return document.getElementById(id).value;
