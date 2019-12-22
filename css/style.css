@@ -1,9 +1,3 @@
-/*
-  Theme Name: Vlava
-  Theme URL: https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/
-  Author: BootstrapMade.com
-  Author URL: https://bootstrapmade.com
-*/
 
 /* === icon component === */
 @import url('icon-component.css');
@@ -12,9 +6,6 @@
 /* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
-/*==========================================================================
-  General
-  ========================================================================== */
 body {
 	color:#777;
 	background: #f7f7f7;
@@ -29,7 +20,10 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, sans-serif, Arial;
 }
 h1, h2, h3, h4, h5, h6 {
-	color:#222;
+	color:rgb(22, 22, 22);
+}
+.cgwhite{
+	color: white;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -329,11 +323,11 @@ section.section {
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/img1.jpg);
+	background-image: url(../assets/counter_cover.jpg);
 }
 
 #testimonials{
-	background-image: url(../img/parallax/img3.jpg);
+	background-image: url(../assets/events_cover.jpg);
 }
 /*===========================
   --- Header & menu ----
@@ -341,7 +335,7 @@ section.section {
 .navbar {
 	line-height: 100px;
 	height: 100px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(255, 255, 255, 0.952);
 	display: block;
 	text-align: center;
 	margin-bottom: 0;
@@ -413,7 +407,7 @@ section.section {
   width: 100%;
   height: 60vh;
   position: relative;
-	background: url(../img/intro-background.jpg) top center;
+	background: url(../assets/Intro_cover.jpg) top center;
   background-size: cover;
 }
 
@@ -473,12 +467,12 @@ section.section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-	background: #85b0be;
+  background: #dd9595;
 }
 
 .btn-get-started:hover {
 	color: #fff;
-	background: #699aaa;
+	background: #edafaf;
 }
 
 /*===========================
@@ -811,15 +805,13 @@ div.cform-response-output {
   font-weight:400;
   font-size:13px;
 }
-
-#sendmessage {
-  color: green;
-  border:1px solid green;
-  display:none;
-  text-align:center;
-  padding:15px;
-  font-weight:600;
-  margin-bottom:15px;
+.aleert {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(255, 157, 157);
+	color: white;
+	margin-bottom: 10px;
+	display: none;
 }
 
 #errormessage {
@@ -858,7 +850,7 @@ div.cform-response-output {
  ================= */
 
 section#footer {
-	background-color:rgba(109, 0, 0, 1);
+	background-color: rgba(150, 0, 0, 1) ;
 	margin: 0;
 	color: #fff;
 }
