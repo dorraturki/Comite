@@ -30,12 +30,12 @@ a:hover {
 
 /* --- icon box hover --- */
 .hi-icon-effect-5 .hi-icon {
-	color: #960000;
-	box-shadow: 0 0 0 4px #960000;
+	color: #a50101;
+	box-shadow: 0 0 0 4px #a50101;
 }
 .no-touch .hi-icon-effect-5 .hi-icon:hover {
-	background: #960000;
-	box-shadow: 0 0 0 8px  #960000;
+	background: #a50101;
+	box-shadow: 0 0 0 8px  #a50101;
 }
 
 
@@ -46,18 +46,18 @@ a:hover {
 
 /* btn */
 .btn-theme {
-  background: #960000;
+  background: #a50101;
 }
 .btn-theme:hover,.btn-theme:focus,.btn-theme:active{
-  background: #960000;
+  background: #a50101;
 }
 .btn-cta,.btn-cta.btn-lg {
-  background: #960000;
-  border-color: #960000;
+  background: #a50101;
+  border-color: #a50101;
 }
 
 .btn-cta:focus,.btn-cta:active{
-   border-color: #960000;
+   border-color: #a50101;
 }
 
 /* footer */
