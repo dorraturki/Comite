@@ -118,8 +118,6 @@ input[type="color"]:focus,
 .uneditable-input:focus {
   outline: 0;
   outline: thin dotted \9;
-  /* IE6-9 */
-
 }
 
 input.search-query {
@@ -180,9 +178,6 @@ input.search-query {
      -moz-border-radius: 0 0 0 0;
           border-radius: 0 0 0 0;
 }
-
-
-/* === bootstrap button === */
 
 
 .btn {

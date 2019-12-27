@@ -15,7 +15,6 @@
     return false;
   });
 
-  // local scroll
   jQuery('.navbar').localScroll({
     hash: true,
     offset: {
@@ -34,16 +33,14 @@
   });
 
 
-  // portfolio
   if ($('.isotopeWrapper').length) {
 
     var $container = $('.isotopeWrapper');
     var $resize = $('.isotopeWrapper').attr('id');
-    // initialize isotope
 
     $container.isotope({
       itemSelector: '.isotopeItem',
-      resizable: false, // disable normal resizing
+      resizable: false, 
       masonry: {
         columnWidth: $container.width() / $resize
       }
@@ -69,7 +66,6 @@
 
     $(window).smartresize(function() {
       $container.isotope({
-        // update columnWidth to a percentage of container width
         masonry: {
           columnWidth: $container.width() / $resize
         }
@@ -170,16 +166,6 @@
     });
 
   }
-
-  //nicescroll
-  $("html").niceScroll({
-    zindex: 999,
-    cursorborder: "",
-    cursorborderradius: "2px",
-    cursorcolor: "#191919",
-    cursoropacitymin: .5
-  });
-
   function initNice() {
     if ($(window).innerWidth() <= 960) {
       $('html').niceScroll().remove();

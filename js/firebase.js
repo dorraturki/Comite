@@ -23,7 +23,7 @@ function submitForm(e){
   var texte = getInputVal('texte') ;
 
   saveMessage(nom, email, sujet, texte);
-
+  alert(hello)
 }
 
   function getInputVal(id){

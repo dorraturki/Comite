@@ -1,4 +1,3 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -225,7 +224,7 @@
 	display: inline-block;
 	margin-right: -100%;
 	padding: 2px 20px;
-	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: transparent; 
 	background: rgba(0, 0, 0, 0.8);
 	-webkit-border-radius: 15px;
 	   -moz-border-radius: 15px;
@@ -263,12 +262,12 @@
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('fancybox_sprite_402x.png');
-		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+		background-image: url('fancybox_sprite_402x.png')
+		background-size: 44px 152px; 
 	}
 
 	#fancybox-loading div {
 		background-image: url('fancybox_loading_402x.gif');
-		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
+		background-size: 24px 24px; 
 	}
 }

@@ -1,6 +1,4 @@
-/* Start: Recommended Isotope styles */
 
-/**** Isotope Filtering ****/
 
 .isotope-item {
   z-index: 2;
@@ -11,7 +9,6 @@
   z-index: 1;
 }
 
-/**** Isotope CSS3 transitions ****/
 
 .isotope,
 .isotope .isotope-item {
@@ -38,8 +35,6 @@
           transition-property:         transform, opacity;
 }
 
-/**** disabling Isotope CSS3 transitions ****/
-
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -50,11 +45,10 @@
           transition-duration: 0s;
 }
 
-/* End: Recommended Isotope styles */
 
 
 
-/* disable CSS transitions for containers with infinite scrolling*/
+
 .isotope.infinite-scrolling {
   -webkit-transition: none;
      -moz-transition: none;
@@ -63,15 +57,6 @@
           transition: none;
 }
 
-
-
-/**** Isotope styles ****/
-
-/* required for containers to inherit vertical size from window */
-/*html,
-body {
-  height: 100%;
-}*/
 
 #container {
   border: 1px solid #666;

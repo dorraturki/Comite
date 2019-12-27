@@ -1,9 +1,3 @@
-
-/* === icon component === */
-@import url('icon-component.css');
-/* === fontawesome === */
-@import url('font-awesome.css');
-/* ==== overwrite bootstrap standard ==== */
 @import url('overwrite.css');
 @import url('animate.css');
 body {
@@ -74,9 +68,6 @@ a:hover {
 	text-transform: uppercase;
 }
 
-/*==========================================================================
-  Misc & Adjust
- ========================================================================== */
 .row {
 	z-index: 9999;
 }
@@ -296,9 +287,7 @@ a:hover {
 }
 
 
-/*===========================
-  --- Sections ----
-=========================== */
+/* Sections */
 
 section.section {
 	margin:0;
@@ -309,7 +298,7 @@ section.section {
 	background-color: #fff;
 }
 
-/* --- section heading --- */
+/*  section heading  */
 .section-header {
 	text-align: center;
 }
@@ -318,9 +307,7 @@ section.section {
 	font-weight: 700;
 }
 
-/* ==========================
- --- Parallax ---
-============================= */
+/* Parallax */
 
 #parallax1{
 	background-image: url(../assets/counter_cover.jpg);
@@ -329,9 +316,7 @@ section.section {
 #testimonials{
 	background-image: url(../assets/events_cover.jpg);
 }
-/*===========================
-  --- Header & menu ----
-=========================== */
+/* Header & menu */
 .navbar {
 	line-height: 100px;
 	height: 100px;
@@ -407,7 +392,7 @@ section.section {
   width: 100%;
   height: 60vh;
   position: relative;
-	background: url(../assets/Intro_cover.jpg) top center;
+	background: url(../assets/intro\ background.jpg) top center;
   background-size: cover;
 }
 
@@ -467,7 +452,7 @@ section.section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #dd9595;
+  background: #f12e2e;
 }
 
 .btn-get-started:hover {
@@ -583,7 +568,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #44BCDD;
+	background-color: #a50101;
 	color:#fff;
 }
 
@@ -598,7 +583,7 @@ nav#filter a:hover, nav#filter a.current {
 }
 
 #portfolio article p {
-	margin-bottom:1.45em;/*set next row on the baseline*/
+	margin-bottom:1.45em;
 }
 nav#filter {
 	margin-bottom:1.5em;
@@ -910,8 +895,8 @@ a.scrollup:hover{
 =========================== */
 
 /* footer social icons */
-.social-network a.icoRss:hover {
-	background-color: #F56505;
+.social-network a.icoInstagram:hover {
+	background-color: #ff00f2;
 }
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
@@ -919,17 +904,11 @@ a.scrollup:hover{
 .social-network a.icoTwitter:hover {
 	background-color:#33ccff;
 }
-.social-network a.icoGoogle:hover {
-	background-color:#BD3518;
+.social-network a.icoYoutube:hover {
+	background-color:#ff0000;
 }
-.social-network a.icoVimeo:hover {
-	background-color:#0590B8;
-}
-.social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
-}
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoInstagram:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoYoutube:hover i{
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
@@ -1064,4 +1043,61 @@ Media queries
 	.stats .col-md-3 {
 		margin-bottom: 30px;
 	}
+}
+/* Art Icons */
+.art{
+	text-align: center;
+}
+.art_btn{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1ebeb;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 1 5px 15px -5px #000000c5 ;
+	color: #a50101 ;
+	overflow: hidden;
+	position: relative;
+}
+.art_btn i{
+	line-height: 90px;
+	font-size: 26px;
+	transition: 0.2s linear ;
+}
+.art_btn:hover i{
+	transform: scale(1.3);
+	color: #f1f1f1;
+}
+.art_btn::before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #a50101 ;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.art_btn:hover::before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+@keyframes aaa{
+	0%{
+		left: -110%;
+		top: 90%;
+	}50%{
+		left: 10%;
+		top: -30%;
+	}100%{
+		top: -10%;
+		left: -10%;
+	}
+}
+#title_art{
+	color: #a50101  ;
+	font-size: 20px;
+	font-weight: 400;
 }
